@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+### Breaking Changes
+
+-   Load the design token fallback plugins from `@wordpress/theme-build-tools` instead of `@wordpress/theme`, which no longer ships them. To keep injecting token fallbacks, install `@wordpress/theme-build-tools` alongside `@wordpress/build`; without it, the build skips token fallbacks.
+
 ### Internal
 
 -   Drop the optional `@wordpress/boot`, `@wordpress/private-apis`, and `@wordpress/route` peer dependencies, unused since they are no longer bundled ([#83601](https://github.com/WordPress/gutenberg/pull/83601)).
