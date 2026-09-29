@@ -8,6 +8,7 @@
 
 ### Enhancements
 
+-   Update `use-recommended-components` rule to mark `Notice` from `@wordpress/ui` as recommended, and to prefer it over `@wordpress/components` `Notice` ([#82685](https://github.com/WordPress/gutenberg/pull/82685)).
 -   Update `use-recommended-components` rule to prefer `Badge` from `@wordpress/ui` over the private `@wordpress/components` `Badge`. ([#82379](https://github.com/WordPress/gutenberg/pull/82379))
 
 ### Bug Fixes
@@ -40,7 +41,6 @@
 
 ### Enhancements
 
--   Update `use-recommended-components` rule to mark `Notice` from `@wordpress/ui` as recommended, and to prefer it over `@wordpress/components` `Notice` ([#82685](https://github.com/WordPress/gutenberg/pull/82685)).
 -   Update `use-recommended-components` rule to prefer `@wordpress/ui` `Field` and `Fieldset` over legacy `@wordpress/components` `BaseControl` ([#82095](https://github.com/WordPress/gutenberg/pull/82095)).
 
 ### Bug Fixes

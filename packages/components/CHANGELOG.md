@@ -11,6 +11,7 @@
 
 ### Enhancements
 
+-   `Notice`: Mark as not recommended in favor of `Notice` from `@wordpress/ui` ([#82685](https://github.com/WordPress/gutenberg/pull/82685)).
 -   `CheckboxControl`: Keep the default checkbox at 16px on narrow screens while retaining a 24px click target ([#83612](https://github.com/WordPress/gutenberg/pull/83612)).
 -   `InputControl`, `SelectControl`, `CustomSelectControl`: Darken the field border on hover to the active stroke color used by `@wordpress/ui`. Disabled and borderless fields keep their resting border ([#83306](https://github.com/WordPress/gutenberg/pull/83306)).
 -   `TextControl`: Use the `@wordpress/ui` disabled text, placeholder, and border colors, and keep the field background instead of the gray disabled fill from wp-admin ([#83307](https://github.com/WordPress/gutenberg/pull/83307)).
@@ -85,7 +86,6 @@
 
 ### Enhancements
 
--   `Notice`: Mark as not recommended in favor of `Notice` from `@wordpress/ui` ([#82685](https://github.com/WordPress/gutenberg/pull/82685)).
 -   Compound components: Report missing state or accessible semantic structure with clear developer guidance ([#82509](https://github.com/WordPress/gutenberg/pull/82509)).
 -   `ToggleGroupControl`: Honor the root `disabled` prop so the whole control is unselectable ([#82259](https://github.com/WordPress/gutenberg/pull/82259)).
 -   Validated form controls: Use `--wpds-color-stroke-interactive-error` for the invalid-state focus ring and border ([#82410](https://github.com/WordPress/gutenberg/pull/82410)).
