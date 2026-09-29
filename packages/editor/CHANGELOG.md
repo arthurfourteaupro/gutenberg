@@ -5,7 +5,7 @@
 ### Enhancements
 
 -   `PostAuthor`: The field renders with the `SearchableSelect` component of `@wordpress/ui` instead of `ComboboxControl` and `SelectControl` ([#83323](https://github.com/WordPress/gutenberg/pull/83323)).
--   Block inspector: Move the "Apply globally" control from the Advanced panel in the Settings tab to the one in the Styles tab, by filling the `advanced-styles` group.
+-   Block inspector: Move the "Apply globally" control from the Advanced panel in the Settings tab to the one in the Styles tab, by filling the `advanced-styles` group ([#83753](https://github.com/WordPress/gutenberg/pull/83753)).
 
 ### Bug Fixes
 
