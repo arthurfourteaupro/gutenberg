@@ -17,6 +17,7 @@ import type { RootProps as MenuRootProps } from '../menu/types';
 import * as Tooltip from '../tooltip';
 import defenseStyles from '../utils/css/global-css-defense.module.css';
 import resetStyles from '../utils/css/resets.module.css';
+import { inertValue } from '../utils/inert-value';
 import { BreadcrumbItemRenderContext } from './context';
 import { CurrentItem } from './current-item';
 import { enforceRenderProps } from './enforce-render-props';
@@ -592,7 +593,7 @@ const Root = forwardRef< HTMLElement, RootProps >( function BreadcrumbRoot(
 			</ol>
 			<div
 				// @ts-expect-error `inert` is not declared in React 18's HTML attribute types.
-				inert="true"
+				inert={ inertValue( true ) }
 				aria-hidden="true"
 				className={ styles.measurement }
 			>
